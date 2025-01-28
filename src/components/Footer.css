@@ -8,7 +8,7 @@
     flex-wrap: wrap;
   }
   
-  /* Social media links */
+ 
   .social-links {
     display: flex;
     justify-content: center;
@@ -28,10 +28,9 @@
     color: #ffeb3d;
   }
   
-  /* Isolated waving cat GIF (footer only) */
- /* Footer Cat Waving GIF */
+  
  .footer .cat-wave img {
-    max-width: 100px; /* Maintain size constraints only for the footer cat */
+    max-width: 100px;
     height: auto;
     object-fit: cover;
     animation: waveCat 1.5s ease-in-out infinite alternate;
@@ -41,7 +40,7 @@
   Footer Layout is Clean */
   
   
-  /* Ensure other images or GIFs remain unaffected */
+  
   .img-gif {
     max-width: 150px;
     height: auto;
@@ -53,7 +52,6 @@
     transform: scale(1.05);
   }
   
-  /* Waving animation */
   @keyframes waveCat {
     from {
       transform-origin: 50% 50%;
