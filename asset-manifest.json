@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/purrtfolio/static/css/main.2527cdeb.css",
+    "main.js": "/purrtfolio/static/js/main.d964cf2e.js",
+    "static/js/156.f814e36d.chunk.js": "/purrtfolio/static/js/156.f814e36d.chunk.js",
+    "static/media/cat-waving.gif": "/purrtfolio/static/media/cat-waving.058f1d85624705787e45.gif",
+    "static/media/cat.gif": "/purrtfolio/static/media/cat.385863fb161a5e79ccc3.gif",
+    "static/media/cat-certificates.gif": "/purrtfolio/static/media/cat-certificates.e7ce84426d38a814b00d.gif",
+    "static/media/cat-laptop.gif": "/purrtfolio/static/media/cat-laptop.2294a2bd0001bf7e6662.gif",
+    "static/media/cat-project.gif": "/purrtfolio/static/media/cat-project.90d47dbefe38917d6606.gif",
+    "static/media/cat-loading.gif": "/purrtfolio/static/media/cat-loading.376d0ea81a1a7235d34a.gif",
+    "index.html": "/purrtfolio/index.html",
+    "main.2527cdeb.css.map": "/purrtfolio/static/css/main.2527cdeb.css.map",
+    "main.d964cf2e.js.map": "/purrtfolio/static/js/main.d964cf2e.js.map",
+    "156.f814e36d.chunk.js.map": "/purrtfolio/static/js/156.f814e36d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2527cdeb.css",
+    "static/js/main.d964cf2e.js"
+  ]
+}
