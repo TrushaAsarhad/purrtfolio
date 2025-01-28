@@ -1,0 +1,66 @@
+.about-me {
+    padding: 60px;
+    text-align: center;
+    background: #fff;
+    color: #222;
+    font-family: 'Roboto', Arial, sans-serif;
+    min-height: 100vh;
+  }
+  
+  .about-me h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff5722;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .cat-gif {
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .cat-gif:hover {
+    transform: scale(1.1);
+  }
+  
+  .info {
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.8;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  strong {
+    color: #ff9800;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+    }
+  
+    .cat-gif {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  

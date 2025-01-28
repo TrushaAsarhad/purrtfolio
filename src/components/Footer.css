@@ -1,0 +1,74 @@
+/* Footer styling */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Social media links */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+    color: #ffeb3d;
+  }
+  
+  /* Isolated waving cat GIF (footer only) */
+ /* Footer Cat Waving GIF */
+ .footer .cat-wave img {
+    max-width: 100px; /* Maintain size constraints only for the footer cat */
+    height: auto;
+    object-fit: cover;
+    animation: waveCat 1.5s ease-in-out infinite alternate;
+    display: block;
+    margin: 0 auto;
+  }
+  Footer Layout is Clean */
+  
+  
+  /* Ensure other images or GIFs remain unaffected */
+  .img-gif {
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+    transition: 0.3s ease;
+  }
+  
+  .img-gif:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Waving animation */
+  @keyframes waveCat {
+    from {
+      transform-origin: 50% 50%;
+      transform: rotate(0deg);
+    }
+    to {
+      transform-origin: 50% 50%;
+      transform: rotate(15deg);
+    }
+  }
+  
+  p {
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  

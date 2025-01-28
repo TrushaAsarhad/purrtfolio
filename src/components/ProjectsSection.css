@@ -1,0 +1,82 @@
+.projects-section {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #fdf6e3;
+    color: #3a3a3a;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #5a4e4d;
+  }
+  
+  .cat-gif {
+    width: 1000px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+    color: #5e5c5a;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .project-card {
+    width: 320px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card h3 {
+    color: #5a4e4d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-card p {
+    margin-bottom: 0.8rem;
+    color: #444;
+  }
+  
+  .project-card ul {
+    margin: 0.5rem 0;
+    padding-left: 1.2rem;
+    color: #555;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #ff8c42;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .project-link:hover {
+    color: #ff5722;
+  }
+  
+  .cat-comment {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #7d6d63;
+  }
+  
